@@ -46,45 +46,37 @@ header .logo-title span {
     position: absolute;  
 }
 
-form {
+.button {
+    width: 400px;
+    height: 45px;
+    border-radius: 25px;
+    background: white;
     position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    text-align: left;
     margin-top: 50px;
     margin-left: 200px;
-}
-
-form .input-one {
-    border-radius: 20px;
-    width: 400px;
-    height: 40px;
     padding-left: 20px;
-    font-size: 14px;
 }
 
-form .input-one:hover {
-    background: #ecf0f1;
+form .button:hover {
+     background: #ecf0f1;
 }
 
-form .btn-uno {
-    border-radius: 20px;
-    width: 60px;
-    height: 40px;
-    color: black;
-    position:absolute;
-    left: 90%;
-    top: 14%;
+.button span {
+    font-size: 10px;
+    color: grey;
 }
 
-form .btn-uno i {
+form i {
     background: #8e44ad;
     color: white;
     border-radius: 50%;
     font-size: 12px;
     text-align: center;
     padding: 8px;
+    position:absolute;
+    left: 91%;
+    top: 10%;
 }
 
 .icons-two {
